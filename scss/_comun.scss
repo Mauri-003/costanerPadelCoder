@@ -1,19 +1,19 @@
 
 h1{
-    font-size: $textXl;
-    color: $tituloColors;
-  }
-  h2{
-    color: $tituloColors;
-    font-size: $textSm;
-  }
-  p{
-    color: $parrafoColors;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 300;
-    font-size: $textMd;
-    line-height: 1.6em;
-  }
-  video{
-    width: 50%; 
-  }
+  font-size: $textXl;
+  color: $tituloColors;
+}
+h2{
+  color: $tituloColors;
+  font-size: $textLg;
+}
+p{
+  color: $parrafoColors;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: $textMd;
+  line-height: 1.6em;
+}
+video{
+  width: 50%; 
+}

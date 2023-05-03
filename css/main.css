@@ -1,8 +1,62 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,500;1,300&display=swap");
-@import url(_vars.scss);
-@import url(_mixins.scss);
-@import url(_comun.scss);
-@import url(_nav.scss);
-@import url(_media.scss);
+.btr-gral {
+  padding: 10px;
+  max-width: 20;
+}
+
+body {
+  background-image: url(../imagen/fondos/grey_wash_wall.webp);
+}
+
+main {
+  background-color: rgba(255, 235, 205, 0.418);
+}
+
+button {
+  color: yellow;
+}
+
+h1 {
+  font-size: 3em;
+  color: yellow;
+}
+
+h2 {
+  color: yellow;
+  font-size: 2em;
+}
+
+p {
+  color: black;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  font-size: 1em;
+  line-height: 1.6em;
+}
+
+video {
+  width: 50%;
+}
+
+.botonera {
+  background-color: rgba(152, 137, 114, 0.418);
+}
+.botonera ul li a {
+  color: white;
+}
+
+.contenedor {
+  background-color: rgba(255, 235, 205, 0.418);
+  width: auto;
+  margin: 20px;
+  padding: 60px 40px;
+}
+
+article {
+  background-color: rgba(255, 235, 205, 0.418);
+}
+article div {
+  background-color: rgba(255, 235, 205, 0.418);
+}
 
 /*# sourceMappingURL=main.css.map */

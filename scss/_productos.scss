@@ -1,12 +1,21 @@
 .contenedor{
-    background-color:$textBg;
-    width:auto;
-  margin: 20px;
-  padding: 60px 40px;
-    
-  }
-  .articule{
-    background-color:$textBg ;
-      
+  background-color:$textBg;
+  width:auto;
+margin: 20px;
+padding: 60px 40px;
+  
+}
+ article{
+  background-color:$textBg ;
+   div{
+         
+         background-color:$textBg ;
+      p{
+        $parrafoColors: black;
+        }
+   }
+}
 
-  }
+
+
+
